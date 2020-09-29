@@ -26,7 +26,7 @@ namespace FunFlacts
                 "OK");
         }
 
-        private void OnMoreInformation(object sender, TappedEventArgs e)
+        private void OnMoreInformation(object sender, EventArgs e)
         {
             Device.OpenUri(vm.CurrentFlag.MoreInformationUrl);
         }
